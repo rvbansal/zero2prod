@@ -1,5 +1,4 @@
 name: zero2prod
-
 region: nyc1
 services:
   - name: zero2prod
@@ -32,7 +31,6 @@ services:
       - key: APP_DATABASE__DATABASE_NAME
         scope: RUN_TIME
         value: ${newsletter.DATABASE}
-
 databases:
   - engine: PG
     name: newsletter
